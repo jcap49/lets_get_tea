@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tea_development
+  pool: 5
+  username: johncapecelatro
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tea_test
+  pool: 5
+  username: johncapecelatro
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tea_production
+  pool: 5
+  username: johncapecelatro
+  password:
