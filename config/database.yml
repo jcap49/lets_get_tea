@@ -1,6 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: tea_development
   pool: 5
   username: johncapecelatro
@@ -9,6 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: tea_test
   pool: 5
   username: johncapecelatro
@@ -17,6 +19,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: tea_production
   pool: 5
   username: johncapecelatro
