@@ -4,7 +4,6 @@
 
 
 // index
-
 #index_container {
   font-family: verdana;
   margin: auto;
@@ -12,4 +11,63 @@
 
 #banner_intro {
   font-size: 40px;
+  float: left;
+  margin-top: -4%;
+}
+
+#banner {
+  text-align: center;
+}
+
+#intro {
+  font-size: 30px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -3%;
+}
+
+#where {
+  width: 25%;
+  float: left;
+}
+
+#who {
+  width: 25%;
+  margin-left: 14.5%;
+}
+
+#why {
+  width: 25%;
+  float: right;
+}
+
+// beneath fold
+
+#pitch {
+  margin-top: 10%;
+  border-top: solid;
+  border-color: black;
+}
+
+#bio {
+  width: 20%;
+  float: left;
+
+  p {
+    font-size: 14px;
+    color: gray;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  #cat_photos {
+    text-decoration: line-through;
+  }
+}
+
+#why_reasons {
+  width: 65%;
+  float: right;
 }
