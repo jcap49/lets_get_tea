@@ -59,6 +59,10 @@ a:hover {
   background-color: #DE2F2F;
 }
 
+// .logistics {
+//   text-align: center;
+// }
+
 #where {
   width: 25%;
   float: left;
@@ -101,7 +105,7 @@ a:hover {
 #bio {
   width: 20%;
   float: left;
-  margin-top: 5%;
+  margin-top: -2.5%;
   margin-left: 5%;
 
   p {
@@ -116,6 +120,18 @@ a:hover {
   #cat_photos {
     text-decoration: line-through;
   }
+}
+
+#profile_photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-webkit-border-radius: 75px;
+  -moz-webkit-border-radius: 75px;
+  background: url("profile.jpg") no-repeat;
+  background-position: center 32%;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #why_reasons {
