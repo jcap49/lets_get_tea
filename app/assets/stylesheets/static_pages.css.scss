@@ -123,9 +123,10 @@ a:hover {
 }
 
 #profile_photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 120px;
+  height: 120px;
+  margin-left: 12%;
+  border-radius: 60px;
   -webkit-webkit-border-radius: 75px;
   -moz-webkit-border-radius: 75px;
   background: url("profile.jpg") no-repeat;
@@ -137,6 +138,10 @@ a:hover {
 #why_reasons {
   width: 65%;
   float: right;
+
+  li {
+    line-height: 27px;
+  }
 }
 
 #disclaimer {
