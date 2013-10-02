@@ -6,9 +6,32 @@
       Hey there, I’m John and I’m a senior at Babson. I was gone and now I’ve returned. I’d love to make your acquaintance. Let’s sip on some tea & hang a bit. 
     #google_form
       %form{:name => 'google_form', :action => "https://docs.google.com/forms/d/1OdHIfnJ7UBQX3vkKRwCLqhU6W7vBZNihsAZta_tQQR8/formRespons", :method => "POST", :id => "ss-form", :target => "_self", :onsubmit => "" }
-      .ss-form-question.errorbox-good
+      .errorbox-good
+      .ss-item.ss-item-require.ss-text{dir: 'ltr'}
+      .ss-form-entry
+      %label.ss-q-item-label{:for => 'entry_921512801'}
+      .ss-q-title
+      %label{:for => "itemView.getDomIdToLabel()"}
+      .ss-q-help.ss.secondary-text{:dir => 'ltr'}
       %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "name*"}
-      %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "email*"}
+      .error-message
+
+      .ss-item.ss-item-require.ss-text{dir: 'ltr'}
+      .ss-form-entry
+      %label.ss-q-item-label{:for => 'entry_921512801'}
+      .ss-q-title
+      %label{:for => "itemView.getDomIdToLabel()"}
+      .ss-q-help.ss.secondary-text{:dir => 'ltr'}
+      %input{:type => "text", :name => "entry_823352891", :value => "", :class => "google_form_input", :id => "entry_823352891", :placeholder => "email*"}
+      / .error-message
+      /   Must be a valid email address.
+
+      .ss-item.ss-item-require.ss-text{dir: 'ltr'}
+      .ss-form-entry
+      %label.ss-q-item-label{:for => 'entry_921512801'}
+      .ss-q-title
+      %label{:for => "itemView.getDomIdToLabel()"}
+      .ss-q-help.ss.secondary-text{:dir => 'ltr'}
       %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "one question*"}
 
       %input{:type => "hidden", :name => "draftResponse", :value => "[]"}
