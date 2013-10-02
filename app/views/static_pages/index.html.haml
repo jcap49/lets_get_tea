@@ -4,7 +4,13 @@
       Let's Get Tea.
     %p#intro 
       Hey there, I’m John and I’m a senior at Babson. I was gone and now I’ve returned. I’d love to make your acquaintance. Let’s sip on some tea & hang a bit. 
-  
+    #google_form
+      / %form{:name => 'google_form', :action => "https://docs.google.com/forms/d/1OdHIfnJ7UBQX3vkKRwCLqhU6W7vBZNihsAZta_tQQR8/formRespons", :method => "POST", :id => "ss-form", :target => "_self", :onsubmit => "" }
+      / .ss-form-question.errorbox-good
+      / %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "what's yo name?"}
+      / %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "what's yo name?"}
+      / %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "what's yo name?"}
+      .error-message
   .four.columns#where
     %h3.logistics Where
     %p#where_details
