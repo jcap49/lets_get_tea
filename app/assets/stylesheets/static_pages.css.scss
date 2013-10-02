@@ -21,9 +21,9 @@
 
 #intro {
   font-size: 30px;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: -3%;
+  width: 45%;
+  margin-top: -5%;
+  margin-left: 1.5%;
 }
 
 #where {
@@ -44,8 +44,18 @@
 // divider between fold
 #divider {
   background-color: #ED3434;
-  height: 150px;
-  margin-top: 4%;
+  height: 225px;
+}
+
+#arrow_div {
+  padding-top: 1%;
+}
+
+#arrow {
+  color: white;
+  font-size: 60px;
+  margin-left: 46%;
+  padding-top: 2%;
 }
 
 // beneath fold
