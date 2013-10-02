@@ -38,16 +38,16 @@
     height: 50px;
     width: 250px;
   }
-
-  input:hover {
-    background-color: #DE2F2F;
-  }
 }
 
 #ss-submit {
   background-color: #ED3434;
   color: white;
   border-style: none;
+}
+
+#ss-submit:hover {
+  background-color: #DE2F2F;
 }
 
 #where {
