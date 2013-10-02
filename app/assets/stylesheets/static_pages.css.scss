@@ -4,6 +4,15 @@
 
 
 // index
+
+a {
+  color: #ED3434;
+}
+
+a:hover {
+  color: #DE2F2F;
+}
+
 #index_container {
   font-family: verdana;
   margin: auto;
@@ -125,6 +134,10 @@
   width: 80%;
   padding-top: 2.5%;
   margin-left: 15%;
+
+  a {
+    color: #9E9E9E;
+  }
 
 }
 
