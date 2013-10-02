@@ -41,12 +41,18 @@
   float: right;
 }
 
+// divider between fold
+#divider {
+  background-color: #ED3434;
+  height: 150px;
+  margin-top: 4%;
+}
+
 // beneath fold
 
 #pitch {
-  margin-top: 10%;
-  border-top: solid;
-  border-color: black;
+  height: 350px;
+  padding-top: 2%;
 }
 
 #bio {
@@ -83,8 +89,9 @@
 
 #disclaimer_contents {
   width: 80%;
-  margin-top: 20px;
+  padding-top: 2.5%;
   margin-left: 15%;
+
 }
 
 #disclaimer_text {
