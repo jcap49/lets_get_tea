@@ -13,6 +13,7 @@ gem 'zurb-foundation'
 gem 'jbuilder', '~> 1.2'
 gem 'thin'
 gem 'rails_12factor', group: :production
+gem 'newrelic_rpm'
 
 group :development do
   gem 'pry-rails'
