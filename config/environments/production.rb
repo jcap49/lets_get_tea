@@ -32,6 +32,7 @@ Tea::Application.configure do
   # Generate digests for assets URLs.
   config.assets.digest = true
 
+  # Heroku settings to serve img as well as assets
   config.serve_static_assets = true
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   config.assets.compile = true
