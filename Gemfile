@@ -12,6 +12,7 @@ gem 'zurb-foundation'
 # gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'thin'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'pry-rails'
