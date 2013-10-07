@@ -33,6 +33,18 @@ body {
 #banner {
   text-align: center;
   color: #303030;
+  float: right;
+  margin-right: 6%;
+}
+
+#logo {
+  width: 125px;
+  height: 125px;
+  float: left;
+  margin-top: 3.75%;
+  margin-left: 4%;
+  background-color: #303030;
+  background: url(image_path("tea_cup.png"))
 }
 
 #intro {
