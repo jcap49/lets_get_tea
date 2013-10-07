@@ -34,17 +34,17 @@ body {
   text-align: center;
   color: #303030;
   float: right;
-  margin-right: 6%;
+  margin-right: 7%;
   padding-top: 5%;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Handlee', cursive;
 }
 
 #logo {
   width: 125px;
   height: 125px;
   float: left;
-  margin-top: 8.5%;
-  margin-left: 4%;
+  margin-top: 7.75%;
+  margin-left: 4.5%;
   background-color: #303030;
   background: url(image_path("tea_cup.png"))
 }
@@ -53,14 +53,14 @@ body {
   float: left;
   font-size: 30px;
   width: 45%;
-  padding-top: 0%;
+  margin-top: -5%;
   padding-left: 1.5%;
 }
 
 #google_form {
   float: right;
   width: 45%;
-  padding-top: 0.5%;
+  margin-top: -5%;
   padding-left: 15.5%;
 
   input {
