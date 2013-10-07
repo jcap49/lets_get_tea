@@ -35,41 +35,6 @@
         .ss-item.ss-navigate
           .ss-form-entry
             %input#ss-submit{name: "submit", type: "submit", value: "Let's do this."}/
-      / %form{:name => 'google_form', :action => "https://docs.google.com/forms/d/1OdHIfnJ7UBQX3vkKRwCLqhU6W7vBZNihsAZta_tQQR8/formRespons", :method => "POST", :id => "ss-form", :target => "_self", :onsubmit => "" }
-      /   .errorbox-good
-      / .ss-item.ss-item-require.ss-text{dir: 'ltr'}
-      / .ss-form-entry
-      / %label.ss-q-item-label{:for => 'entry_921512801'}
-      / .ss-q-title
-      / %label{:for => "itemView.getDomIdToLabel()"}
-      / .ss-q-help.ss.secondary-text{:dir => 'ltr'}
-      / %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "name*"}
-      / .error-message
-
-      / .ss-item.ss-item-require.ss-text{dir: 'ltr'}
-      / .ss-form-entry
-      / %label.ss-q-item-label{:for => 'entry_921512801'}
-      / .ss-q-title
-      / %label{:for => "itemView.getDomIdToLabel()"}
-      / .ss-q-help.ss.secondary-text{:dir => 'ltr'}
-      / %input{:type => "text", :name => "entry_823352891", :value => "", :class => "google_form_input", :id => "entry_823352891", :placeholder => "email*"}
-      / / .error-message
-      / /   Must be a valid email address.
-
-      / .ss-item.ss-item-require.ss-text{dir: 'ltr'}
-      / .ss-form-entry
-      / %label.ss-q-item-label{:for => 'entry_921512801'}
-      / .ss-q-title
-      / %label{:for => "itemView.getDomIdToLabel()"}
-      / .ss-q-help.ss.secondary-text{:dir => 'ltr'}
-      / %input{:type => "text", :name => "entry.921512801", :value => "", :class => "google_form_input", :id => "entry_921512801", :placeholder => "one question*"}
-
-      / %input{:type => "hidden", :name => "draftResponse", :value => "[]"}
-      / %input{:type => "hidden", :name => "pageHistory", :value => "0"}
-
-      / %input{:type => "submit", :name => "submit", :value => "Press me!", :id => "ss-submit", :class => "button"}
-
-      / .error-message
   .four.columns#where
     %h3.logistics Where
     %p#where_details
@@ -117,6 +82,10 @@
         So you can tell your parents you met some stranger from the internet this week AND survived to tell the tale.
 #disclaimer
   #disclaimer_contents
+    %p#credit 
+      A big thank you to 
+      %span>=link_to ' Ankit Shah ', 'http://twitter.com/ankitshah'
+      for copy-editing, design critique, and most importantly the inspiration for this project. If you're in the Bay Area, be sure to get tea with him.
     %p#fish I once got into a fight with a basket of fish & chips in the UK once. I lost. Miserably.
     %br
     %span#hello>=link_to 'Hit me up', 'mailto:jcapecelatro@gmail.com'

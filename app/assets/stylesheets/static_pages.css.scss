@@ -13,8 +13,10 @@ a:hover {
   color: #DE2F2F;
 }
 
+
 body {
   background-color: #F0F0F0;
+  color: #4D4B4B;
 }
 
 #index_container {
@@ -30,21 +32,22 @@ body {
 
 #banner {
   text-align: center;
+  color: #303030;
 }
 
 #intro {
   float: left;
   font-size: 30px;
   width: 45%;
-  margin-top: -5%;
-  margin-left: 6.5%;
+  padding-top: 0%;
+  padding-left: 1.5%;
 }
 
 #google_form {
   float: right;
   width: 45%;
-  margin-top: -4.5%;
-  margin-right: -7.5%;
+  padding-top: 0.5%;
+  padding-left: 15.5%;
 
   input {
     font-size: 16px;
@@ -55,6 +58,7 @@ body {
 }
 
 #ss-submit {
+  margin-top: 5%;
   background-color: #ED3434;
   color: white;
   border-style: none;
@@ -86,7 +90,7 @@ body {
 // divider between fold
 #divider {
   background-color: #ED3434;
-  height: 225px;
+  height: 125px;
 }
 
 #arrow_div {
@@ -112,14 +116,14 @@ body {
 // beneath fold
 
 #pitch {
-  height: 350px;
+  height: 450px;
   padding-top: 2%;
 }
 
 #bio {
   width: 20%;
   float: left;
-  margin-top: -2.5%;
+  padding-top: 2.5%;
   margin-left: 5%;
 
   p {
@@ -151,6 +155,7 @@ body {
 
 #why_reasons {
   width: 65%;
+  padding-top: 3.5%;
   float: right;
 
   li {
@@ -159,7 +164,7 @@ body {
 }
 
 #disclaimer {
-  height: 300px;
+  height: 340px;
   font-size: 12px;
   background-color: #ED3434;
   color: white;
@@ -180,6 +185,14 @@ body {
   text-align: center;
   width: 60%;
   margin-left: 15%;
+  padding-bottom: 2%;
+}
+
+#credit {
+  text-align: center;
+  width: 68%;
+  padding-left: 22%;
+  padding-bottom: 1%;
 }
 
 #fish {
