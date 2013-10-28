@@ -37,27 +37,27 @@
         .ss-item.ss-navigate
           .ss-form-entry
             %input#ss-submit{name: "submit", type: "submit", value: "Let's do this."}/
-  .four.columns#where
-    %h3.logistics Where
-    %p#where_details
-      The clouds, Boston Commons, Reynolds Campus Center,
+
+  %ul#who_where_why
+    %li 
+      %span#where Where: 
+      Boston-area. Boston Commons, Reynolds Campus Center (Babson),
       %span>=link_to ' Crema Cafe, ', 'http://www.cremacambridge.com/'
-      %span>=link_to ' Voltage ', 'https://www.google.com/search?q=voltage+cafe&oq=voltage+cafe&aqs=chrome..69i57j0l5.1025j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8'
-      or wherever your heart desires.
-  .four.columns#who
-    %h3.logistics Who
-    %p#who_details 
-      Me + you * your cadre of friends if you’d like + tea &#61 yayfuntimes / however long we talk for
-  .four.columns#why
-    %h3.logistics Why
-    =link_to 'Let me explain below...', '#why_banner' 
+      %span>=link_to ' Voltage Coffee, ', 'http://voltagecoffee.com/'
+      wherever!
+    %li
+      %span#who Who: 
+      Me + you * your cadre of friends if you’d like + tea &#61 yayfuntimes 
+    / %li
+    /   %span#why Why: 
+    /   =link_to 'Let me explain below...', '#why_banner' 
 #divider
   #arrow_div
     %span#arrow &#9660
 .row#pitch
   #bio
     #profile_photo
-    %h5 Who is this dude?
+    %h5 Who is this guy?
     %p 
       Just so we're clear, I do actually exist. I like long drives in the lorry, waking up on the wrong side of the bed, and have a special affinity for mismatched socks. Still don't believe I'm real? Have a shout at my profiles on 
       %span>=link_to ' Twitter, ', 'http://twitter.com/jcap49'
