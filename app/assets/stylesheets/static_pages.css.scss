@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$red: #ED3434;
 
 // index
 
@@ -22,6 +23,7 @@ body {
 #index_container {
   font-family: verdana;
   margin: auto;
+  width: 900px;
 }
 
 #banner_intro {
@@ -53,7 +55,7 @@ body {
   float: left;
   font-size: 30px;
   width: 45%;
-  padding-top: -2%;
+  margin-top: -1.5%;
   padding-left: 1.5%;
   line-height: 1.4;
 }
@@ -62,12 +64,12 @@ body {
   float: right;
   width: 45%;
   margin-top: -1%;
-  padding-left: 15.5%;
+  padding-left: 5.5%;
 
   input {
     font-size: 16px;
     height: 50px;
-    width: 250px;
+    width: 350px;
     border-radius: 5px;
   }
 }
@@ -117,8 +119,9 @@ body {
 
 // divider between fold
 #divider {
+  margin-top: 2%;
   background-color: #ED3434;
-  height: 125px;
+  height: 100px;
 }
 
 #arrow_div {
@@ -194,7 +197,7 @@ body {
 #disclaimer {
   height: 340px;
   font-size: 12px;
-  background-color: #ED3434;
+  background-color: lighten($red, 10%);
   color: white;
 }
 
