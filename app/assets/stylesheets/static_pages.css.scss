@@ -198,11 +198,15 @@ body {
 
 #why_reasons {
   width: 65%;
-  padding-top: 3.5%;
+  padding-top: 0.5%;
   float: right;
 
+  ol {
+    padding-left: 25px;
+  }
+
   li {
-    line-height: 27px;
+    line-height: 35px;
   }
 }
 
