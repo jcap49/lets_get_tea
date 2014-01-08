@@ -1,0 +1,32 @@
+{
+  "name": "apprentice.io Application", 
+  "description": "As a fun little project, I put together an API whose endpoint can be queried to access my apprentice.io application in JSON format",
+  "application": "I'm John Capecelatro and hail from upstate NY. Currently a senior at Babson College in Wellesley, MA, I've spent the last three years immersing myself in the startup technology communities of Boston, London, and San Francisco. A portion of that time was focused in a non-technical capacity -- most notably my work at TechStars as an associate, where I helped launch Startup Institute http://www.startupinstitute.com -- until I reached a growing point of frustration around not being able to build upon ideas of my own. 
+
+  To help alleviate this frustration, I took a semester off from college during my junior year, and moved to San Francisco. There, I spent three months completing an apprenticeship learning Ruby/Rails under an engineer and designer, Kyle Bragger (@kylebragger). I’m now fortunate enough to count Kyle as a close friend, and still turn to him regularly for advice and mentorship. During this time, I fell in love with web development, particularly with Ruby/Rails -- a language and framework that I find to be both approachable and powerful. In that moment, I realized that -- with some effort and knowledge -- I had the ability to create anything I desired. Feeling that sense of empowerment and opportunity fueled my desire to become a web developer and happily accept the resulting challenges. 
+
+  Following my apprenticeship, I completed an internship at venture-backed startup One King’s Lane -- an experience I found to be incredibly humbling. It was the first time I had worked as a web developer professionally, and the amount of responsibility I was given was enormous. Working alongside another engineering intern and our mentor, I built a dashboard to display a/b test information from the ground up and deploy these tests to production servers. This project was a phenomenal full-stack development experience for me. It was an invaluable exposure to design and implement the dashboard layout, build out the backend layer that communicated with an internal company API to deploy scripts to staging and production servers, write integration tests (a personal source of pride is that the app had 99% test coverage - an achievement that happened to be the highest coverage of any engineering project across a team of over 80 engineers), and work with the network operations team to deploy the app. Technologies used to build the app included Ruby 2, Rails 4, Haml, Twitter Bootstrap, RSpec/Rcov, and Jenkins/Koality (for continuous integration and deployment efforts). Needless to say, I left at the end of the summer knowing I wanted to become a web developer. 
+
+  In September 2013, I returned to Babson, excited to continue learning more about web development. I was equally excited to get to know the Boston developer community. To that end, I’ve attended Thoughbot’s project night and the BostonRb meetup several times, as well as the Wicked Good Ruby Conference last year. These events have been invaluable in energizing my growth as a developer. As a result of attending one of the project nights, I was invited to work on an open source project related to emergency response tThe project involves a Raspberry Pi and the relevant Github repo can be found here: https://github.com/jcap49/auto-transfer). 
+
+  Over the course of the semester, I began a part-time internship with a Dedham, MA-based big data startup Sonian, where I’ve spent the past several months working in a small team building automated tests for the company’s products using Ruby/Cucumber/Watir. This has been a fascinating experience so far, providing me with deeper insight into the world of testing, while also exposing me to new technologies, including Chef/Knife, AWS, and Elasticsearch. 
+
+  In addition to my professional development experiences, I’ve spent meaningful time working on a few side projects, both in college hackathons and in my spare time. I’m most proud of a recent project I called Bonsai (http://www.heybonsai.com). The project was born out of a desire to spend more time reflecting on my daily actions. While this is still only a side project, I’m keen on building this out to become a tool that anyone can use to catalogue personal reflections and identify trends or themes in their lives. I feel that having projects with longer lifespans is useful for providing an outlet for continued learning, as such projects tend to be made up of many smaller, more manageable pieces To that end, Bonsai is something that I hope to continue working on the side through the end of my senior year. Technologies I’ve used in the project include: Ruby 2, Rails 4, Rspec, Twilio API (to handle SMS sending/receiving), and IronWorker (to handle scheduling). I wrote a blog post about an interesting challenge relating to how I handled user registration (http://blog.johncapecelatro.com/post/64828232397/enabling-superman-extending-the-devise-gem) and here is the relevant snippet of code I’m most proud of: https://gist.github.com/jcap49/438e8c73ddf5f0ed39fe. 
+
+  Outside of programming, I greatly enjoy cooking, scuba diving, snowboarding and travel. I also spend a bit of my time playing the piano, and exploring new and different types of music. 
+
+  In closing, I’m incredibly excited to have found something I enjoy doing on a personal and professional level -- a craft that I am intent on spending the next several decades exercising and improving. I would like to surround myself with those I can both learn a great deal from, but also provide value to in return. I look forward to the opportunity that Apprentice.io offers to learn from a group of inspirational and talented developers and designers at Thoughtbot.  
+
+  Relevant links:
+
+  Github: http://github.com/jcap49
+  Linkedin: http://www.linkedin.com/in/johncapecelatro/
+  Blog: http://blog.johncapecelatro.com
+  Twitter: http://twitter.com/jcap49
+  Bonsai (side project): http://www.heybonsai.com
+
+  References: 
+  Kyle Bragger - kyle@kylebragger.com 
+  Ryan Dawidjan - ryandawidjan@gmail.com
+  Alex Wheeler - awheeler@bu.edu" 
+}
