@@ -3,5 +3,6 @@ class API::ApprenticeApplicationController < ApplicationController
   end
 
   def show
+    
   end
 end
